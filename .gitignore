@@ -1,0 +1,39 @@
+# ============================================================
+# .gitignore Maestro - DioFaFarma Fullstack
+# ============================================================
+
+# Dependencias (Frontend y Backend)
+node_modules/
+*/node_modules/
+
+# Archivos de producción / compilación
+dist/
+dist-ssr/
+build/
+*/dist/
+
+# Variables de entorno y credenciales sensibles
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos temporales y comprimidos
+*.zip
+*.tar.gz
+*.tmp
+~$*
+~WRL*
+
+# Editores y sistema operativo
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
